@@ -1,10 +1,49 @@
-h2 {
+h2 {    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(36, 48, 36);
+    color: rgb(36, 48, 36)
 }
 p {
+    position: absolute;
+    top: 550px;
+    left: 600px;
     font-family: sans-serif; 
 }
-body {
+body {   
     background-color: #aec7b8;
+}    
+#Nome {    
+    position: absolute;
+    top: 350px;
+    left: 600px;
 }
+img {
+    position: absolute;
+    top: 350px;
+    left: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: solid 3px    
+}
+#habilidades {
+    position: absolute;
+    top: 700px;
+}
+ol {
+    position: absolute;
+    top: 750px;
+}
+
+
+
+
+
+/*
+
+    -Coloque seu nome, sua foto e a descrição que você escreveu sobre você dentro de blocos;
+    -A descrição deve ficar ao lado da foto;
+    -Centralize seu nome na página;
+    -Use padding e coloque uma cor de fundo na sua foto que seja diferente da cor de fundo do resto da página;
+    -Adicione margin e padding nos elementos que julgar necessário;
+    -Coloque estilo somente nos itens ímpares da lista das suas habilidades.
+
+*/
