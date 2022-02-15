@@ -6,32 +6,119 @@
     <title>Portfólio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     
+    <!--load all Font Awesome styles -->
+    <script src="https://kit.fontawesome.com/63f85850d3.js" crossorigin="anonymous"></script>    
+    
 </head>
 <body>
-    <h1 id="Bem vindo">Bem vindo ao meu portfólio</h1><br><br>
-    <h2>Links</h2> 
-    <a href="#Bem vindo">Bem vindo</a> <br>
-    <a href="#Selfie">Selfie</a> <br>
-    <a href="https://blog.betrybe.com" target="_blank">Site que recomendo</a> <br>    
-    <a href="#Nome"> Meu nome</a> <br>
-    <a href="#habilidades">Lista de Habilidades</a> <br>
-
-    <h2 id="Nome">Meu nome é <em>Fernando Augusto Lasmar De Paiva</em></h2>
-    <img src="Imagem/Fernando.jpeg" width="250px" alt="Selfie" id="Selfie">
-  <p>
-    Olá meu nome é <strong>Fernando Lasmar</strong> , sou de Belo Horizonte, Minas Gerais, Brasil. <br> 
-    Atualmente estudo desenvolvimento web na Trybe! <br>
-    Neste website você pode encontrar diversas informações sobre mim e os projetos nos quais ja trabalhei. <br>
-  </p>
-  <h2 id="habilidades">Lista de habilidades</h2>
-  <ol>
-    <li>Responsável</li>
-    <li>Trabalho em equipe</li>
-    <li>HTML: em desenvolvimento</li>
-    <li>CSS: em desenvolvimento</li>
-    <li>JavaScript: em desenvolvimento</li>    
-  </ol>
+  <div class="hero">
+    <nav>
+      <h2 class="logo">Portfo<span>lio</span></h2>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Trabalhos</a></li>
+        <li><a href="#">Habilidades</a></li>
+        <li><a href="#">Contato</a></li>
+      </ul>
+      <a href="#" class="btn">Se inscrever</a>
+    </nav>
+  </div>   
   
+  <div class="content">
+    <h4>Olá, meu nome é</h4>
+    <h1>Fernando <span>Lasmar</span></h1>
+    <h3>Estudante de Desenvolvimento Web</h3>
+    
+    <div class="newslatter">
+      <form action="">
+        <input type="email" name="email" id="mail" placeholder="Digite seu e-mail">
+        <input type="submit" name="submit" value="Vamos conversar">
+      </form>
+    </div>
+  </div>
+
+  <!--SOBRE MIM-->
+  <section class="about">
+    <div class="main">
+      <img src="" alt="">
+      <div class="about-text">
+        <h2>Sobre Mim</h2>
+        <h5>Desenvolvedor <span>Web</span></h5>
+        <p>Sou o Fernando, atualmente moro em Belo Horizonte, casado e tenho um filho, sou apaixonado por esportes e viagens ao litoral. Apaixonado por aprender novas tecnologias e sempre buscando por experiências e conhecimentos que agregam, com objetivo de me tornar um grande desenvolvedor.</p>
+        <button type="button">Vamos conversar</button>
+      </div>
+    </div>
+  </section>
+
+  <!--TRABALHOS-->
+  <div class="service">
+
+    <div class="title">
+      <h2>Projetos</h2>
+    </div>
+
+    <div class="box">
+
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5>Desenvolvimento Web</h5>
+        <div class="pra">
+          <p>
+            Cada site deve ser construído com dois objetivos principais: primeiro, ele precisa funcionar em todos os dispositivos. Em segundo lugar, precisa ser o mais rápido possível.
+          </p>
+          <p style="text-align: center;">
+            <a class="button" href="#">Consulte</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5>Desenvolvimento Web</h5>
+        <div class="pra">
+          <p>
+            Cada site deve ser construído com dois objetivos principais: primeiro, ele precisa funcionar em todos os dispositivos. Em segundo lugar, precisa ser o mais rápido possível.
+          </p>
+          <p style="text-align: center;">
+            <a class="button" href="#">Consulte</a></p>
+        </div>
+      </div>
+
+      <div class="card">
+        <i class="fas fa-bars"></i>
+        <h5>Desenvolvimento Web</h5>
+        <div class="pra">
+          <p>
+            Cada site deve ser construído com dois objetivos principais: primeiro, ele precisa funcionar em todos os dispositivos. Em segundo lugar, precisa ser o mais rápido possível.
+          </p>
+          <p style="text-align: center;">
+            <a class="button" href="#">Consulte</a></p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!--CONTATO-->
+  <div class="contact-me">
+    <p>Deixe-me construir um belo site.</p>
+    <a class="button-two" href="#">Contrate-me</a>
+  </div>
+
+  <!--FOOTER-->
+  <footer>
+    <p>Fernando Lasmar</p>
+    <p>Clique no link abaixo para se inscrever</p>
+
+    <div class="social">
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+
+    <p class="end">&copy; Fernando Lasmar</p>
+  </footer>
 
 </body>
 </html>
